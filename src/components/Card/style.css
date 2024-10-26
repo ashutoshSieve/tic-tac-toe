@@ -1,0 +1,74 @@
+/* Card Container */
+.card {
+    background-color: #ffffff; /* White background */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 15px; /* Reduced inner padding */
+    width: 250px; /* Reduced width */
+    margin: 15px auto; /* Centering with smaller margin */
+    transition: transform 0.2s; /* Slightly faster hover effect */
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.03); /* Slightly smaller scale on hover */
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.4rem; /* Smaller font size for title */
+    margin-bottom: 10px; /* Reduced spacing below title */
+    color: #333; /* Dark color */
+    text-align: center; /* Center align title */
+}
+
+/* Form */
+.card-form {
+    display: flex;
+    flex-direction: column; /* Vertical alignment */
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 10px; /* Reduced spacing between form fields */
+}
+
+/* Labels */
+label {
+    margin-bottom: 3px; /* Smaller spacing below labels */
+    font-weight: bold; /* Bold labels */
+    font-size: 0.9rem; /* Smaller label font */
+}
+
+/* Input Fields */
+.input {
+    width: 100%; /* Full width inputs */
+    padding: 8px; /* Reduced inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Slightly less rounded input */
+    font-size: 0.9rem; /* Smaller font size */
+    transition: border 0.2s; /* Faster transition */
+}
+
+/* Focus State for Input */
+.input:focus {
+    border: 1px solid #4f46e5; /* Blue border on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 8px; /* Reduced inner padding */
+    background-color: #4f46e5; /* Primary color */
+    color: #ffffff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Slightly less rounded button */
+    font-size: 0.9rem; /* Smaller font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.2s; /* Faster transition */
+}
+
+/* Hover State for Button */
+.submit-button:hover {
+    background-color: #4338ca; /* Darker shade on hover */
+}

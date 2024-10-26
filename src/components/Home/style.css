@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Title */
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333; /* Dark text */
+}
+
+/* Form */
+.form {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 30px; /* Inner padding */
+    width: 300px; /* Fixed width for form */
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px; /* Spacing between form fields */
+}
+
+/* Labels */
+label {
+    display: block; /* Block level for labels */
+    margin-bottom: 5px; /* Spacing below labels */
+    font-weight: bold; /* Bold labels */
+}
+
+/* Input Fields */
+.input {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded input */
+    font-size: 1rem; /* Font size */
+    transition: border 0.3s; /* Smooth transition */
+}
+
+/* Focus State for Input */
+.input:focus {
+    border: 1px solid #4f46e5; /* Blue border on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Submit Button */
+.submit-button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Inner padding */
+    background-color: #4f46e5; /* Primary color */
+    color: #ffffff; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded button */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover State for Button */
+.submit-button:hover {
+    background-color: #4338ca; /* Darker shade on hover */
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if cards overflow */
+    gap: 10px; /* Space between cards */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 10px; /* Optional padding around the cards */
+}
