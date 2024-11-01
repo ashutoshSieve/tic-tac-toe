@@ -50,7 +50,7 @@ function Board({ onGameOver }) {
             socket.off("updateBoard");
             socket.off("gameOver");
         };
-    }, []);
+    }, [onGameOver]);
 
     const handleMove = (index) => {
         if (board[index] !== null || winner) return;
